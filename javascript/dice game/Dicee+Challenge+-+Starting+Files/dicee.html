@@ -25,5 +25,20 @@
     </div>
 
     <footer>www 🎲 App Brewery 🎲 com</footer>
+    <script>
+        var choice1 = Math.floor(Math.random() * 6) + 1;
+        var choice2 = Math.floor(Math.random() * 6) + 1;
+
+        document.querySelector(".dice .img1").setAttribute("src", "./images/dice" + choice1 + ".png");
+        document.querySelector(".dice .img2").setAttribute("src", "./images/dice" + choice2 + ".png");
+
+        if(choice1 > choice2){
+          document.querySelector(".container h1").innerHTML = "Player 1 wins!"
+        }else if(choice1 == choice2){
+          document.querySelector(".container h1").innerHTML = "It's a tie!"
+        }else {
+          document.querySelector(".container h1").innerHTML = "Player 2 wins!"
+        }
+    </script>
   </body>
 </html>
