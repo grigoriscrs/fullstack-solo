@@ -56,6 +56,9 @@
 
 
       <div id="tag-error" class="tag-error">
+        <% if (locals.error) { %>
+        <%= error %>
+        <% } %>
         <!-- Show any errors that were sent from the backend -->
       </div>
 
