@@ -1,0 +1,53 @@
+I completed this course a few months ago and wanted to share some essential steps to take after finishing it.
+
+Firstly, thanks to Angela for her excellent teaching. This is the best online bootcamp to get started with Web Development. However, there were a few things that were not covered in depth.
+
+
+
+React Class Components:
+
+Learn about React Class Components alongside Functional Components. The course did not cover class components in depth.
+
+Additional React Hooks:
+
+Explore other React hooks that were not included in the bootcamp - https://react.dev/reference/react/hooks
+
+State Management:
+
+State management with Redux or Context API is must to know (for making big projects).
+
+API Handling with Axios:
+
+Get proficient with Axios for handling API requests in React.
+
+React Routing:
+
+Understand React routing, similar to how we used Express for routing in projects.
+
+Build a Static Project:
+
+The next step will be to make one simple static project on your own with React Class or functional Components as per need without using any databases like MongoDB to have better understanding and check what you have learnt.
+
+MERN Project:
+
+As we built a TODO application with Mongo, Express, and EJS, try creating a MERN (MongoDB, Express, React, Node.js) project. It has a different folder structure compared to a simple React application.
+
+Internships/Jobs:
+
+After completing the React portion, start applying for React or Web development internships/jobs. Gaining practical experience is invaluable.
+
+Open Source Contribution:
+
+Participate in open-source projects and programs like GSoC, LFX Mentorship. It boosts confidence and gives a sense of accomplishment.
+
+
+
+So one common mistake to prevent is to fall in the tutorial hell loop.
+
+Don't try to fall in this loop of learning without implementing, the correct procedure which to follow should be to learn a technology, make a project, git it, deploy it, share it with your friends-family anyone you want and add to your portfolio. This will surely keep your interest in development and help you keep moving, learning further!
+
+
+
+NOTE: The above things mentioned are from a learning point of view only. Getting hired as a Front End Engineer / Full Stack Developer requires different preparation. From interviews perspective learning JavaScript & Data Structures - Algorithms should be on top priority.
+
+Things might be intimidating in the beginning, but just hang in there. You'll thank yourself later.
