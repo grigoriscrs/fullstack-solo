@@ -29,7 +29,7 @@ app.post("/", async (req, res) => {
     const response = await axios.get(`https://bored-api.appbrewery.com/filter?type=${req.body.type}&participants=${req.body.participants}`);
     //randomize result
     const result = response.data;
-   // console.log(result);
+    console.log(result);
     let choice;
     choice = Math.floor(Math.random()* result.length);
     res.render("index.ejs", { data: result[choice] });
